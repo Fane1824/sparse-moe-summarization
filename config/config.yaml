@@ -1,0 +1,88 @@
+# Global configuration for experiments
+
+project:
+  name: qwen-test
+  output_dir: runs
+  seed: 42
+
+# Dataset
+xsum:
+  dataset_name: EdinburghNLP/xsum
+  text_column: document
+  summary_column: summary
+  max_source_length: 768
+  max_target_length: 64
+  pad_to_max_length: false
+  val_max_target_length: 64
+  num_beams: 4
+
+# Baseline: BART inference
+bart:
+  model_name: facebook/bart-large-xsum
+  batch_size: 8
+
+# Finetuning models
+finetune:
+  t5_base:
+    model_name: google-t5/t5-base
+    lr: 3.0e-5
+    batch_size: 16
+    gradient_accumulation_steps: 2
+    num_train_epochs: 50
+    fp16: false
+    early_stopping_patience: 2
+    early_stopping_threshold: 0.0
+    lora:
+      enabled: false
+      r: 16
+      alpha: 32
+      dropout: 0.05
+      target_modules: [q, k, v, o]
+  qwen_3b:
+    model_name: meta-llama/Llama-3.2-1B-Instruct
+    lr: 2.0e-5
+    batch_size: 8
+    gradient_accumulation_steps: 8
+    num_train_epochs: 50
+    fp16: true
+    early_stopping_patience: 2
+    early_stopping_threshold: 0.0
+    lora:
+      enabled: true
+      r: 16
+      alpha: 32
+      dropout: 0.05
+      target_modules: [q_proj, k_proj, v_proj, o_proj]
+
+# MoE-from-scratch
+moe:
+  d_model: 512
+  nhead: 8
+  num_encoder_layers: 4
+  num_decoder_layers: 4
+  dim_feedforward: 2048
+  dropout: 0.1
+  vocab_size: 32128
+  max_position_embeddings: 1024
+  num_experts: 8
+  k: 2  # top-k tokens per router
+  router: topk   # options: topk, hash
+  load_balancer_weight: 0.01
+  use_lora_experts: false
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+
+# Generation
+generation:
+  num_beams: 4
+  max_new_tokens: 64
+  length_penalty: 1.0
+  no_repeat_ngram_size: 3
+
+# Logging
+logging:
+  use_wandb: false
+  log_steps: 50
+
