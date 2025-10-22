@@ -12,3 +12,11 @@ python -m pip install datasets PyYAML seaborn tqdm
 ```
 
 Experiment settings live in `config/config.yaml`.
+
+## BART baseline
+
+```bash
+python scripts/baseline_bart.py --output runs/baseline_bart
+```
+
+Evaluation reports ROUGE, BLEU, BERTScore, compression, and source overlap.
