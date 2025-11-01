@@ -20,3 +20,12 @@ python scripts/baseline_bart.py --output runs/baseline_bart
 ```
 
 Evaluation reports ROUGE, BLEU, BERTScore, compression, and source overlap.
+
+## Fine-tuning
+
+```bash
+python scripts/finetune_t5.py --output runs/t5_base
+python scripts/finetune_qwen.py --output runs/llama_1b
+```
+
+The causal-model script uses Llama-3.2-1B-Instruct through the `finetune.qwen_3b` configuration.
