@@ -29,3 +29,12 @@ python scripts/finetune_qwen.py --output runs/llama_1b
 ```
 
 The causal-model script uses Llama-3.2-1B-Instruct through the `finetune.qwen_3b` configuration.
+
+## Sparse MoE
+
+```bash
+python scripts/train_moe.py --router topk --epochs 10 --output runs/moe_topk
+python scripts/infer_moe.py --checkpoint runs/moe_topk/best_model --output runs/moe_eval
+```
+
+Use `--router hash` for single-expert hash routing. GQA and low-rank expert variants are available through training flags.
