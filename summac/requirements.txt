@@ -1,0 +1,22 @@
+# Core dependencies for SummaC evaluation
+summac==0.0.4
+
+# Deep learning frameworks with CUDA support
+torch>=2.0.0
+transformers>=4.30.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# NLP models and utilities (required by SummaC)
+sentence-transformers>=2.2.0
+datasets>=2.12.0
+scipy>=1.10.0
+
+# Additional dependencies that may be required
+scikit-learn>=1.2.0
+nltk>=3.8.0
