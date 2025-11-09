@@ -1,0 +1,16 @@
+Expert Usage Statistics - moe_hash_lora
+============================================================
+
+Total experts: 8
+Total assignments: 1589616
+Active experts: 8
+
+Expert usage counts:
+  Expert  0: 198360 assignments (12.48%)
+  Expert  1: 198966 assignments (12.52%)
+  Expert  2: 199018 assignments (12.52%)
+  Expert  3: 199170 assignments (12.53%)
+  Expert  4: 198510 assignments (12.49%)
+  Expert  5: 198894 assignments (12.51%)
+  Expert  6: 198574 assignments (12.49%)
+  Expert  7: 198124 assignments (12.46%)

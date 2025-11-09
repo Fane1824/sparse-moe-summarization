@@ -1,0 +1,16 @@
+Expert Usage Statistics - moe_hash_noload
+============================================================
+
+Total experts: 8
+Total assignments: 1600356
+Active experts: 8
+
+Expert usage counts:
+  Expert  0: 199712 assignments (12.48%)
+  Expert  1: 200195 assignments (12.51%)
+  Expert  2: 200039 assignments (12.50%)
+  Expert  3: 200423 assignments (12.52%)
+  Expert  4: 200182 assignments (12.51%)
+  Expert  5: 200284 assignments (12.51%)
+  Expert  6: 199655 assignments (12.48%)
+  Expert  7: 199866 assignments (12.49%)

@@ -1,0 +1,16 @@
+Expert Usage Statistics - moe_topk
+============================================================
+
+Total experts: 8
+Total assignments: 3084664
+Active experts: 8
+
+Expert usage counts:
+  Expert  0: 255730 assignments ( 8.29%)
+  Expert  1: 361963 assignments (11.73%)
+  Expert  2: 616386 assignments (19.98%)
+  Expert  3: 622242 assignments (20.17%)
+  Expert  4: 159296 assignments ( 5.16%)
+  Expert  5: 300917 assignments ( 9.76%)
+  Expert  6: 287036 assignments ( 9.31%)
+  Expert  7: 481094 assignments (15.60%)
