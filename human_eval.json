@@ -1,0 +1,233 @@
+[
+  {
+    "id_key": "idx::20375",
+    "source": "Scottish independence: Police examine online JK Rowling abuse Police in Scotland are examining an allegation of \"online criminality\" against Harry Potter author JK Rowling. Rowling was a target of abuse on social media after backing the Scottish independence pro-union campaign Better Together.\nPolice Scotland confirmed they were considering a report of online crime in relation to the writer.\nScotland's senior prosecutor said those responsible for \"grossly offensive\" messages would be prosecuted.",
+    "reference": "Police in Scotland are examining an allegation of \"online criminality\" against Harry Potter author JK Rowling.",
+    "baseline_bart": "Police are investigating an allegation of \"online criminality\" against Harry Potter author JK Rowling.",
+    "eval_hub_causal": "Police are investigating online abuse of JK Rowling, the author of the Harry Potter series, in the wake of her support for Scottish independence.",
+    "eval_hub_seq2seq": "Police are investigating online abuse against Scottish independence campaigner JK Rowling.",
+    "moe_hash": "aveson has been urged to be a \"shocking\" of the Scottish Parliament. of the Scottish Parliament. in Scotland. a year. a year of the Scottish government. a report. of the Scottish government... of",
+    "moe_hash_lora": "ry Police have been a \"sex\" in the Scottish government\" in the Scottish Parliament.ed\" and a new child, the Scottish government has said.ed. of the Scottish government.ed of the Scottish Parliament. of the Scottish government's ",
+    "moe_hash_noload": "ed Police Scotland's handling of abuse allegations has been released by the Scottish government., according to the Scottish government.s.... who were a report. has been a report...... reports.",
+    "moe_topk": "has been launched after the Scottish Police Scotland's social media report on social media.., the BBC News website has learned.. has been released.. reports.",
+    "moe_topk_gqa": "police officers officers officers officers officers officers officerss officers officerss officers officers officerss officers officerss officers officerss officers officerss officerss officers officerss officers officerss officerss officers officerss officerss officers officerss officerss officers officerss officerss officers officerss officerss officerss officers officerss officerss officers officers",
+    "moe_topk_lora": "ns have been convicted of a sex offences. for the Scottish government's most alleged sex abuse. on the Scottish government. of the Scottish government..bns have been a BBC's a a s of",
+    "moe_topk_noload": "police have been sacked by the Scottish Police Scotland Yard.rs, according to the Scottish Police Scotland.racial abuse inquiry..rs.rain, a report. ",
+    "scores": {
+      "baseline_bart": {
+        "content_relevance": 4,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 5
+      },
+      "eval_hub_causal": {
+        "content_relevance": 3,
+        "coherence": 4,
+        "fluency": 4,
+        "facts": 3
+      },
+      "eval_hub_seq2seq": {
+        "content_relevance": 4,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 4
+      },
+      "moe_hash": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_hash_lora": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_hash_noload": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 2
+      },
+      "moe_topk": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 2,
+        "facts": 2
+      },
+      "moe_topk_gqa": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_topk_lora": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_topk_noload": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 2,
+        "facts": 1
+      }
+    }
+  },
+  {
+    "id_key": "idx::544",
+    "source": "Cable cut at Cwmcarn school death scene, pre-inquest hears A cut electric cable was found at a Caerphilly secondary school where an asbestos removal worker died, a pre-inquest hearing was told. Investigators found a Stanley knife near where James Paul, 26, from Abertillery, Blaenau Gwent, was working at Cwmcarn High School in July 2013.\nA previous hearing at Newport Coroner's Court heard Mr Paul could have been electrocuted.\nGwent coroner David Bowen will hold a week-long jury inquest on 27 June.",
+    "reference": "A cut electric cable was found at a Caerphilly secondary school where an asbestos removal worker died, a pre-inquest hearing was told.",
+    "baseline_bart": "An inquest into the death of an asbestos removal worker at a Caerphilly school has been opened and adjourned.",
+    "eval_hub_causal": "A power cut at a school where a teacher was found dead may have caused a fatal electrical shock, an inquest has heard.",
+    "eval_hub_seq2seq": "A cable was cut at the scene of a man's death at a Newport school, a pre-inquest hearing has heard.",
+    "moe_hash": "awys have been found guilty of a man who died in a schoolboy in a critical condition. a schoolboy. a year ago. is not been found.m) in the death. of the death.",
+    "moe_hash_lora": "oner has been resigned after a woman was found in a reopening a house in a house.ed.m.... a house in a a a a house in a.ed",
+    "moe_hash_noload": "mrs have been paid to a man who died in a wy county school. died, a coroner has said. was he was a \"no\".\"., a man, a year\". and a coron-",
+    "moe_topk": "er a schoolgirl has been told to be reopened after a man died. was found at a school.. was a coroner has been told a court heard...... police investigation.. ",
+    "moe_topk_gqa": "are a man-year-year-olding-olding-olding-olding-led a-ding blazes blazes blaze-led blaze-led blaze-led blaze-led blaze- in-oning blaze-led blaze-on",
+    "moe_topk_lora": "ns have been found guilty of a man who died after being found dead in a house in a house in a house... to a court has been found... and a court heard.na court.. to",
+    "moe_topk_noload": "police are to be held at a school in Gwynedd., a court has heard. a man who was found dead at a school in the centre of a school. a he was a school. prison",
+    "scores": {
+      "baseline_bart": {
+        "content_relevance": 3,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 4
+      },
+      "eval_hub_causal": {
+        "content_relevance": 2,
+        "coherence": 4,
+        "fluency": 4,
+        "facts": 2
+      },
+      "eval_hub_seq2seq": {
+        "content_relevance": 4,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 4
+      },
+      "moe_hash": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_hash_lora": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_hash_noload": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 2
+      },
+      "moe_topk": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 2,
+        "facts": 2
+      },
+      "moe_topk_gqa": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_topk_lora": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 2
+      },
+      "moe_topk_noload": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 2,
+        "facts": 2
+      }
+    }
+  },
+  {
+    "id_key": "idx::1196",
+    "source": "Perry Ng: Defender signs new deal with Crewe Alexandra Crewe Alexandra defender Perry Ng has signed a new one-year contract with the League Two club. The 21-year-old's deal includes the option for a further 12 months, depending on appearances next season.\nA graduate of Crewe's famed academy, Ng played 20 times for the first team this season, ending the campaign in the centre of midfield.\nMeanwhile, Crewe's head of recruitment Neil Baker has left the club for a third spell as manager of Leek Town.",
+    "reference": "Crewe Alexandra defender Perry Ng has signed a new one-year contract with the League Two club.",
+    "baseline_bart": "Crewe Alexandra defender Perry Ng has signed a new one-year contract with the club.",
+    "eval_hub_causal": "Defender Perry Ng has signed a new contract with National League side Crewe, keeping him at the club until the end of the 2017-18 season.",
+    "eval_hub_seq2seq": "Crewe Alexandra defender Perry Ng has signed a new one-year contract with the League Two club.",
+    "moe_hash": "aega has signed a new two-year contract with the club until the end of the season. with the club. a new contract...... the option of the club... the club. a",
+    "moe_hash_lora": "ford have signed defender Lukedaed fee on a two-year deal with the League Two club.ed fee.ed fee. the season.ed.e of the season. the season.ea season.a season.",
+    "moe_hash_noload": "eton has signed a new deal with the League One club until the end of the season.s. defender's new contract. defender. on a one-year deal.s a new deal. a new deal. defender.",
+    "moe_topk": "League Two side Fleetwood Town have signed former Wiggins side Rotherham United defender Josh Maguire..... has signed a new contract with the League One club...... club.. club.",
+    "moe_topk_gqa": "have defender defender defender defender defender defender defender defender defender defender defender defender defender defender defender defender defender Beneea defender defender defender defender defender defender defender defender defender defender defender defender ",
+    "moe_topk_lora": "nmere have signed former England international defender Michael O'Neill on a two-year contract. winger Benitez.. Caledonianasa May..bneda May. to sign of the new deals. to",
+    "moe_topk_noload": "midfielder Jong-a-half Mike Deeg has signed a new contract with the Premiership club.r.rashed..r.... the club.ra new deal. club.. a",
+    "scores": {
+      "baseline_bart": {
+        "content_relevance": 5,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 5
+      },
+      "eval_hub_causal": {
+        "content_relevance": 4,
+        "coherence": 4,
+        "fluency": 5,
+        "facts": 3
+      },
+      "eval_hub_seq2seq": {
+        "content_relevance": 5,
+        "coherence": 5,
+        "fluency": 5,
+        "facts": 5
+      },
+      "moe_hash": {
+        "content_relevance": 3,
+        "coherence": 2,
+        "fluency": 2,
+        "facts": 2
+      },
+      "moe_hash_lora": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_hash_noload": {
+        "content_relevance": 3,
+        "coherence": 2,
+        "fluency": 2,
+        "facts": 2
+      },
+      "moe_topk": {
+        "content_relevance": 2,
+        "coherence": 2,
+        "fluency": 2,
+        "facts": 1
+      },
+      "moe_topk_gqa": {
+        "content_relevance": 1,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_topk_lora": {
+        "content_relevance": 2,
+        "coherence": 1,
+        "fluency": 1,
+        "facts": 1
+      },
+      "moe_topk_noload": {
+        "content_relevance": 2,
+        "coherence": 2,
+        "fluency": 2,
+        "facts": 1
+      }
+    }
+  }
+]
